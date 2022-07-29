@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/00e71096db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sitemenu">
+                    <li><a href="#" class="active tab-lists" onclick="opentab('header')">Home</a></li>
+                    <li><a href="#about" class="tab-lists" onclick="opentab('about')">About</a></li>
+                    <li><a href="#services" class="tab-lists" onclick="opentab('services')">Services</a></li>
+                    <li><a href="#portfolio" class="tab-lists" onclick="opentab('portfolio')">Portfolio</a></li>
+                    <li><a href="#contact" class="tab-lists" onclick="opentab('contact')">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Kevin</span> <br>
+                     Jen From Australia</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- endheadere -->
+
+    <!-- About -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"  onclick="opentab('skils')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skils">
+                        <ul>
+                            <li><span>UI?XI</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Curren</span><br>UI/XI Design Training at ET Institute</li>
+                            <li><span>2019 - 2021</span><br>Team lead starApp LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/XI Design Executive at Coin Disital Ltd.</li>
+                            <li><span>2016 - 2017</span><br>Intership ekart e - commere</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>UI/XI Design training at ET Institute </li>
+                            <li><span>2016</span><br>MBA from MIL Bangalor</li>
+                            <li><span>2016</span><br>BBA from ISM Bangalor</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- EndAbout -->
+    
+    <!-- services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services </h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/XI Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+   <!-- ---------- endservices-------- -->
+
+   <!-- --------portfolio-------- -->
+
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="leyer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to talented people around the world Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="leyer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to talented people around the world Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="leyer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to talented people around the world Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+   </div>
+
+   <!-- --------endportfolio------ -->
+
+   <!-- -------contact------ -->
+
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me </h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rifathazari@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone-flip"></i>01728561458</p>
+                <div class="socila-icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="#" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email">
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © RifatHazari</p>
+    </div>
+   </div>
+
+
+<!-- savascripe -->
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    var tablists = document.getElementsByClassName("tab-lists");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        for(tablist of tablists){
+            tablist.classList.remove("active");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        event.currentTarget.classList.add("active");
+    }
+</script>
+
+<!-- ---------menu------- -->
+
+<script>
+    var sitemenu = document.getElementById("sitemenu");
+
+    function openmenu(){
+        sitemenu.style.right = "0";
+    }
+    function closemenu(){
+        sitemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const mdg = document.getElementById("msg");
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+        setTimeout(function(){
+            msg=innerHTML
+        },10000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
